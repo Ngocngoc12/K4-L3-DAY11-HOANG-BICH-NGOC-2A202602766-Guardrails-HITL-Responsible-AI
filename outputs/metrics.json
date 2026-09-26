@@ -1,0 +1,23 @@
+{
+  "total_requests": 24,
+  "blocked_requests": 16,
+  "block_rate": 0.6666666666666666,
+  "rate_limit_hits": 5,
+  "judge_checks": 0,
+  "judge_fails": 0,
+  "judge_fail_rate": 0.0,
+  "alerts": [
+    {
+      "metric": "block_rate",
+      "value": 0.6667,
+      "threshold": 0.5,
+      "message": "High block rate: 66.7% of requests blocked (threshold 50.0%)"
+    },
+    {
+      "metric": "rate_limit_hits",
+      "value": 5.0,
+      "threshold": 5.0,
+      "message": "Too many rate-limit hits: 5 (threshold 5)"
+    }
+  ]
+}
